@@ -1,0 +1,5 @@
+﻿{
+USER2={ID="79114767";PASSWORD="55bbbbuu";SERVER="BrilliantPreciousMetals-Demo"};
+MT4="C:\\WINDOWS";
+USER1={ID="2000062115";PASSWORD="test@alfa";SERVER="ICMarkets-Live20"}
+}
