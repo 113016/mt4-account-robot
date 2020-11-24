@@ -5,7 +5,8 @@ Installation
 * Set the script shortcut ALT+H in MT4
 * modify setting.txt
 ```
-      USER2={ID="79114767";PASSWORD="222222";SERVER="BrilliantPreciousMetals-Demo"};
+      MT4="C:\Program Files (x86)\HXInvestments MT4";  //midify to your pah
+      USER2={ID="79114767";PASSWORD="222222";SERVER="BrilliantPreciousMetals-Demo"};   //add your client
       USER3={ID="79114769";PASSWORD="222222";SERVER="BrilliantPreciousMetals-Demo"};
 ```
 
