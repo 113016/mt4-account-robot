@@ -80,10 +80,10 @@ bool initFile()
       FileWrite(filehandle,
                 "Account Name",
                 "Account Number",
-                "Currency",
                 "From",
                 "Till",
-                "Profit"
+                "Profit",
+                "Currency"
                );
       FileClose(filehandle);
       
@@ -106,10 +106,10 @@ bool outputcsv(AccInfo &Acc)
    FileWrite(filehandle,
              Acc.Name,
              Acc.Number,
-             Acc.Currency,
              TimeToStr(Acc.From,TIME_DATE),
              TimeToStr(Acc.Till,TIME_DATE),
-             Acc.Profit
+             Acc.Profit,
+             Acc.Currency
             );
    FileFlush(filehandle);
    FileClose(filehandle);
